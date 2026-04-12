@@ -117,3 +117,45 @@ nav {
   color: white;
   padding: 10px;
 }
+
+.card{
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block; 
+}
+
+.card .card_img{ /*No need to do this*/
+  width: 50%;
+  height: auto;
+  border-radius: 5px;
+  margin: 10px;
+
+}
+.card_title{
+  font-size: 45px;
+  color:green;
+}
+.app{
+  background-color: rgb(24, 56, 44);
+}
+
+.Cards{ /* (all cards) to make the cards align horizontally and wrap to the next line if needed*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /*to center the cards horizontally*/
+
+}
+
+.btn{
+  background-color: grey;
+  padding: 7px 15px; /* padding for the button x and y */
+  border-radius: 5px;
+  hoverer{
+    background-color: black;
+    color: white;
+  };
+}
