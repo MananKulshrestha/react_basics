@@ -1,6 +1,6 @@
 
 function Food(){
-    const food = "Pizza";
+    const food = "Manan";
     const price = 10;
     return (<div className = "c1">
         <h4>Food: {food}</h4>
