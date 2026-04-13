@@ -1,6 +1,6 @@
 
 function Header(){
-    return (<header>
+    return (<>
         <h1>My React App</h1>
         <nav>
             <ul>
@@ -8,8 +8,8 @@ function Header(){
                 <li><a href="https://example.com/about">About</a></li>
                 <li><a href="https://example.com/contact">Contact</a></li>
             </ul>
-        </nav>
-    </header>);
+            </nav>
+    </>);
 }
 
 export default Header;

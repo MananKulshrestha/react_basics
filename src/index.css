@@ -60,3 +60,11 @@ nav {
   border-radius: 10px; 
   
 }
+
+.card:hover{  /*hovering over card*/
+  background-color: lightgrey;
+  cursor: pointer;  
+  padding-left: 105px;
+  padding-right: 105px;
+
+}
